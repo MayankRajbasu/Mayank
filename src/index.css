@@ -65,8 +65,7 @@ nav div ul a::before{
 
 #about-content h1::before{
   display:flex;
-  content: "0" counter(section) ".";
-  counter-increment: section 1;
+  content: "01.";
   position: relative;
   margin-right: 10px;
   color: var(--color-highlight);
@@ -95,6 +94,38 @@ nav div ul a::before{
   font-size: 14px;
   line-height: 12px;
   left:0px;
+  top: 7px;
+  line-height: 12px;
+}
+
+#work-content h1::before{
+  display:flex;
+  content: "02.";
+  position: relative;
+  margin-right: 10px;
+  color: var(--color-highlight);
+  text-align: right;
+  align-items: end;
+}
+
+#work-content h1::after{
+  content: "";
+  display: block;
+  position: relative;
+  margin: 12.5px;
+  height: 2px;
+}
+
+#work-content li{
+  position: relative;
+}
+#work-content li::before{
+  content: "▹";
+  position: absolute;
+  color: var(--color-highlight);
+  font-size: 14px;
+  line-height: 12px;
+  left:-16px;
   top: 7px;
   line-height: 12px;
 }
