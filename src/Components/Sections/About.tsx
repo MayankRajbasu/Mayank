@@ -7,7 +7,7 @@ function About() {
         <p className="relative font-regular pt-2 text-left text-sd">Talking about Machine learning, my journey began with an excitement to learn something very new and with building a simple classification model. Fast forward to today, I am able to develop prediction models based on classical and deep learning models.</p>
         <p className="relative font-regular pt-2 text-left text-sd">Here are a few technical skills I’ve been acquired along the way :</p>
       </div>
-      <ul id="skills-content" className="relative grid xsm:grid-cols-3 lg:grid-cols-5 w-full text-start py-4 px-2 tracking-wide">
+      <ul id="skills-content" className="relative grid xsm:grid-cols-3 lg:grid-cols-5 w-full text-start py-4 px-2 text-sd tracking-wide">
         <li className="font-regular">Javascript</li>
         <li className="font-regular">Python</li>
         <li className="font-regular">Java</li>

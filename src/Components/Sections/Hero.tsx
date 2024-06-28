@@ -16,7 +16,7 @@ function Hero() {
       </div>
       <div id="img-content"  className="w-[300px] h-[300px] bg-[#64ffda] rounded hover:-translate-x-1 hover:-translate-y-1 relative ">
         <div className="w-full h-full after:border-2 after:w-full after:h-full after:border-teal-400 after:block after:absolute after:top-3 after:left-3 after:-z-10 hover:after:translate-x-2 hover:after:translate-y-2 after:rounded">
-          <img className="w-full h-full object-cover rounded grayscale contrast-100 mix-blend-multiply hover:grayscale-0 hover:mix-blend-normal " src="Mayank/images/Mayank.jpg"></img>
+          <img className="w-full h-full object-cover rounded grayscale contrast-100 mix-blend-multiply hover:grayscale-0 hover:mix-blend-normal " src="/Mayank/images/Mayank.jpg"></img>
         </div>
       </div>
     </article>

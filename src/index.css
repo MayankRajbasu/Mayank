@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: 'FiraCode';
-  src: url('./fonts/Fira_Code/FiraCode.ttf');
+  src: url('/fonts/Fira_Code/FiraCode.ttf');
 }
 @font-face {
   font-family: 'Calibre';
