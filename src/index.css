@@ -104,6 +104,16 @@ nav div ul a::before{
   line-height: 12px;
 }
 
+@media (max-width:390px){
+  #skills-content li{
+    padding-left:12px;
+  }
+  #skills-content li::before{
+    padding-left:0px
+  }
+
+}
+
 #work-content h1::before{
   display:flex;
   content: "02.";

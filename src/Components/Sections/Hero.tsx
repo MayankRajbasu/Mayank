@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <article className="flex gap-5 lg:justify-between xsm:justify-center relative flex-wrap items-center w-full min-h-screen lg:px-36 xsm:px-8 xsm:py-16">
+    <article className="flex gap-5 lg:justify-between xsm:justify-center relative flex-wrap items-center w-full min-h-screen lg:px-36 xsm:px-6 xsm:py-12">
       <div id="content" className="flex flex-col">
         <p className="font-regular text-teal-400 font-normal lg:text-lg xsm:text-base xsm:py-2">Hi, my name is</p>
         <p className="font-hero lg:text-7xl text-slate-300 font-semibold xsm:text-5xl xsm:py-2">Mayank Raj.</p>
