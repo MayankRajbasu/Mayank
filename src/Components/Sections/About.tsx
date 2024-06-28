@@ -8,21 +8,21 @@ function About() {
         <p className="relative font-regular pt-2 text-left text-sd">Here are a few technical skills I’ve been acquired along the way :</p>
       </div>
       <ul id="skills-content" className="relative grid xsm:grid-cols-3 lg:grid-cols-5 w-full text-start py-4 px-2 tracking-wide">
-        <li>Javascript</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>React Js</li>
-        <li>Next Js</li>
-        <li>Tailwind</li>
-        <li>BootStarp</li>
-        <li>CSS</li>
-        <li>Pandas</li>
-        <li>Numpy</li>
-        <li>Matplotlib</li>
-        <li>MongoDB</li>
-        <li>MySql</li>
-        <li>Git</li>
-        <li>Github</li>
+        <li className="font-regular">Javascript</li>
+        <li className="font-regular">Python</li>
+        <li className="font-regular">Java</li>
+        <li className="font-regular">React Js</li>
+        <li className="font-regular">Next Js</li>
+        <li className="font-regular">Tailwind</li>
+        <li className="font-regular">BootStarp</li>
+        <li className="font-regular">CSS</li>
+        <li className="font-regular">Pandas</li>
+        <li className="font-regular">Numpy</li>
+        <li className="font-regular">Matplotlib</li>
+        <li className="font-regular">MongoDB</li>
+        <li className="font-regular">MySql</li>
+        <li className="font-regular">Git</li>
+        <li className="font-regular">Github</li>
       </ul>
     </article>
   )
