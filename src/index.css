@@ -47,8 +47,14 @@ nav a.active{
 }
 
 main section {
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: start;
+}
+
+@media (max-width: 390px){
+  #container{
+    scroll-snap-type: none;
+  }
 }
 
 nav{
@@ -112,7 +118,7 @@ nav div ul a::before{
   content: "";
   display: block;
   position: relative;
-  margin: 12.5px;
+  margin: 14px;
   height: 2px;
 }
 
