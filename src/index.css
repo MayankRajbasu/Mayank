@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-highlight : rgb(45 212 191);
+  --scroll-dim: rgb(136, 146, 176);
+  --scroll-light: rgb(204, 214, 246);
+  --surface : rgb(15 23 42);
+  --navy-shadow: rgba(2,12,27,0.7);
+  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/fonts/Roboto_Mono/RobotoMono.ttf');
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('./fonts/Fira_Code/FiraCode.ttf');
+}
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/calibre/CalibreRegular.otf');
+}
+
+.bg-green{
+  background-color: var(--green);
+}
+.font-hero{
+  font-family: Calibre, sans-serif;
+}
+.font-regular{
+  font-family: FiraCode, Roboto Mono, monospace;
+}
+nav a.active{
+  color: var(--color-highlight);
+}
+
+#container {
+  position: relative;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+nav{
+  counter-reset: item 0;
+}
+
+nav div ul a::before{
+  counter-increment: item 1;
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color: var(--color-highlight);
+  text-align: right;
+}
+
+#about-content h1::before{
+  display:flex;
+  content: "0" counter(section) ".";
+  counter-increment: section 1;
+  position: relative;
+  margin-right: 10px;
+  color: var(--color-highlight);
+  text-align: right;
+  align-items: end;
+}
+
+#about-content h1::after{
+  content: "";
+  display: block;
+  position: relative;
+  margin: 12.5px;
+  height: 2px;
+}
+
+#skills-content li{
+  position:relative;
+  padding-left:20px;
+}
+
+#skills-content li::before{
+  content: "▹";
+  position: absolute;
+  color: var(--color-highlight);
+  padding-left: 4px;
+  font-size: 14px;
+  line-height: 12px;
+  left:0px;
+  top: 7px;
+  line-height: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-dim);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-light);
+}
+
