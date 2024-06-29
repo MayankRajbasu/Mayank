@@ -51,11 +51,11 @@ main section {
   scroll-snap-align: start;
 }
 
-@media (max-width: 390px){
+/* @media (max-width: 390px){
   #container{
     scroll-snap-type: none;
   }
-}
+} */
 
 nav{
   counter-reset: item 0;
