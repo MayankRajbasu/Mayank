@@ -51,12 +51,6 @@ main section {
   scroll-snap-align: start;
 }
 
-/* @media (max-width: 390px){
-  #container{
-    scroll-snap-type: none;
-  }
-} */
-
 nav{
   counter-reset: item 0;
 }
@@ -144,6 +138,24 @@ nav div ul a::before{
   left:-16px;
   top: 7px;
   line-height: 12px;
+}
+
+#project-content h1::before{
+  display:flex;
+  content: "02.";
+  position: relative;
+  margin-right: 10px;
+  color: var(--color-highlight);
+  text-align: right;
+  align-items: end;
+}
+
+#project-content h1::after{
+  content: "";
+  display: block;
+  position: relative;
+  margin: 14px;
+  height: 2px;
 }
 
 ::-webkit-scrollbar {
