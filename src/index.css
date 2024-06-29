@@ -142,7 +142,7 @@ nav div ul a::before{
 
 #project-content h1::before{
   display:flex;
-  content: "02.";
+  content: "03.";
   position: relative;
   margin-right: 10px;
   color: var(--color-highlight);
