@@ -15,7 +15,7 @@ function Work() {
           <h2 className="font-medium sd:text-xl xsm:text-[15px] mt-4" >Data Science Intern <span className="text-teal-400">@ Let'sGrowMore</span></h2>
           <p className="sd:text-sd xsm:text-[14px] font-light">April 2024 - May 2024</p>
           <ul className="pt-2 pl-3 text-left">
-            <li>Improved familiarity with ML and Decision Tree Models with practical use case. </li>
+            <li>Improved familiarity with ML and Decision Tree Models with practical use case.</li>
             <li>Engineered a simple solution to convert photos to pencil drawings using OpenCV and Python.</li>
           </ul>
         </div>
