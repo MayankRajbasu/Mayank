@@ -1,8 +1,8 @@
 function Work() {
   return (
-    <article className="flex justify-center gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xl:py-0 py-16">
+    <article className="flex justify-center gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xl:py-0 sd:py-16 xsm:py-10">
       <div id="work-content" className="flex flex-col w-full sm:mt-7 xsm:mt-0 relative">
-        <h1 className="font-regular sm:text-2xl xsm:text-[22px] flex font-semibold text-slate-300 text-start mb-3 before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-40 after:xsm:w-[72px]">My Experience</h1>
+        <h1 className="font-regular sm:text-2xl xsm:text-[22px] flex font-semibold text-slate-300 text-start mb-3 before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-40 after:xsm:w-[60px]">My Experience</h1>
         <div className="relative font-regular sd:pt-5 xsm:pt-1 text-left sd:text-sd xsm:text-[12px]">
           <h2 className="font-medium msd:text-xl sm:text-[18px] xsm:text-[15px] tracking-tighter" >Frontend Intern <span className="text-teal-400">@ ScienceOverse</span></h2>
           <p className="msd:text-sd xsm:text-[13px] font-light">Apr 2024 - May 2024</p>
