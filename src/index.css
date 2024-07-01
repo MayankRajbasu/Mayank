@@ -7,7 +7,8 @@
   --scroll-dim: rgb(136, 146, 176);
   --scroll-light: rgb(204, 214, 246);
   --surface : rgb(15 23 42);
-  --navy-shadow: rgba(2,12,27,0.7);
+  --light-navy : #112240;
+  --navy-shadow: rgb(0 2 4 / 70%);
   --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
@@ -171,6 +172,53 @@ nav div ul a::before{
   position: relative;
   margin: 14px;
   height: 2px;
+}
+
+#card-container {
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+}
+@media (max-width:1056px){
+  #card-container {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+}
+@media (max-width:910px){
+  #card-container {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+#cards{
+    box-shadow: 0 15px 36px -10px var(--navy-shadow);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    font-family : FiraCode, Roboto Mono, monospace;
+    align-items: flex-start;
+    height: 300px;
+    padding: 2rem 1.75rem;
+    border-radius: 4px;
+    background-color: var(--light-navy);
+    transition: var(--transition);
+    overflow: auto;
+}
+
+#contact-content h1::before{
+  display:flex;
+  content: "04.";
+  position: relative;
+  margin-right: 10px;
+  color: var(--color-highlight);
+  text-align: right;
+  align-items: end;
+}
+
+#footer svg{
+  width: 25px;
+  height: 25px;
+  transition: var(--transition);
 }
 
 ::-webkit-scrollbar {

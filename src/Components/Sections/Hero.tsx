@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <article className="flex xl:gap-5 xl:justify-between xsm:justify-center relative flex-wrap items-center w-full min-h-screen xl:px-36 xl:py-0 sd:py-16 xsm:py-10">
-      <div id="content" className="flex flex-col h-full my-8">
+      <div id="content" className="flex flex-col h-full sd:my-8 xsm:my-2">
         <p className="font-regular font-normal text-teal-400 sd:text-[18px] xsm:text-[16px] py-2">Hi, my name is</p>
         <p className="font-hero text-slate-300  xl:text-[64px] sd:text-[56px] xsm:text-[48px] font-semibold tracking-wide">Mayank Raj.</p>
         <p className="font-hero xl:text-[56px] sd:text-[42px] xsm:text-[28px] font-semibold pb-2 tracking-wide">I build things for the web and ML.</p>
