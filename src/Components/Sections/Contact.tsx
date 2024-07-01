@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <article className="flex justify-between gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xsm:pt-44 sd:pb-8 xsm:pb-4">
+    <article className="flex justify-between gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 sm:pt-48 xsm:pt-36 sd:pb-8 xsm:pb-4">
       <div id="contact-content" className="flex flex-col items-center w-full sm:mt-7 xsm:mt-2 relative">
         <h1 className="font-regular sd:text-[22px] xsm:text-[16px] flex font-medium text-teal-400 mb-3 before:sd:text-lg  before:font-medium after:bg-slate-600">What's next?</h1>
         <p className="font-hero text-slate-300/75 xl:text-[52px] sd:text-[48px] xsm:text-[36px] font-bold tracking-wide">Get In Touch</p>
