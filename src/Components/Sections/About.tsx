@@ -18,7 +18,7 @@ function About() {
         <li className="font-regular">CSS</li>
         <li className="font-regular">Pandas</li>
         <li className="font-regular">Numpy</li>
-        <li className="font-regular">Matplotlib</li>sd:
+        <li className="font-regular">Matplotlib</li>
         <li className="font-regular">MongoDB</li>
         <li className="font-regular">MySql</li>
         <li className="font-regular">Git</li>
