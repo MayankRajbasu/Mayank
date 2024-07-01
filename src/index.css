@@ -51,6 +51,21 @@ main section {
   scroll-snap-align: start;
 }
 
+@media (max-height:390px){
+  #hero #content{
+    padding:12px 0;
+  }
+  #hero #img-content{
+    width: 240px;
+  }
+  #container{
+   scroll-snap-type: none;
+  }
+  #about article, #works article, #projects article ,#contact article{
+    padding-top: 0px;
+  }
+}
+
 nav{
   counter-reset: item 0;
 }
@@ -98,7 +113,7 @@ nav div ul a::before{
   line-height: 12px;
 }
 
-@media (max-width:390px){
+/* @media (max-width:390px){
   #skills-content li{
     padding-left:12px;
   }
@@ -106,8 +121,8 @@ nav div ul a::before{
     padding-left:0px
   }
 
-}
-
+} */
+ 
 #work-content h1::before{
   display:flex;
   content: "02.";
