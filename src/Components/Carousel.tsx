@@ -17,7 +17,7 @@ interface Event {
 
 const Carousel: React.FC<{ events: Event[] }> = ({ events }) => {
     const [emblaRef] = useEmblaCarousel({ loop: true },
-        // [Autoplay({ delay: 2000 })]
+        [Autoplay({ delay: 2000 })]
     )
 
     return (
