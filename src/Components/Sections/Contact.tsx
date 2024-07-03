@@ -4,8 +4,8 @@ function Contact() {
       <div id="contact-content" className="flex flex-col items-center w-full sm:mt-7 xsm:mt-2 relative">
         <h1 className="font-regular sd:text-[22px] xsm:text-[16px] flex font-medium text-teal-400 mb-3 before:sd:text-lg  before:font-medium after:bg-slate-600">What's next?</h1>
         <p className="font-hero text-slate-300/75 xl:text-[52px] sd:text-[48px] xsm:text-[36px] font-bold tracking-wide">Get In Touch</p>
-        <p className="font-regular xl:px-72 mb-6 pb-3 text-center text-[14px]">I'm currently open for any new opportunities in field of Fullstack and Machine learning developement. Whether you have any querry or just wanna say hi, my inbox is open. I'll try my best to get back to you! </p>
-        <div className="border-2 py-2 px-4 text-teal-400 border-teal-400 content-center font-regular hover:cursor-pointer rounded text-[14px]">
+        <p className="font-regular xl:px-72 mb-6 pb-3 text-center text-[14px] msd:text-[16px]">I'm currently open for any new opportunities in field of Fullstack and Machine learning developement. Whether you have any querry or just wanna say hi, my inbox is open. I'll try my best to get back to you! </p>
+        <div className="border-2 py-2 px-4 text-teal-400 border-teal-400 text-center font-regular hover:cursor-pointer rounded text-[14px] msd:text-[16px] w-36">
           <a href="mailto:mayank.09raj@gmail.com">Say Hello!</a>
         </div>
       </div>
