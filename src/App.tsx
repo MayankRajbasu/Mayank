@@ -5,10 +5,8 @@ import About from "./Components/Sections/About";
 import Work from "./Components/Sections/Work";
 import Project from "./Components/Sections/Project";
 import Contact from "./Components/Sections/Contact";
-import { HideAddressBar } from "./Components/Hideaddressbar";
 
 export default function App() {
-  HideAddressBar();
   return (
     <>
       <Header />
