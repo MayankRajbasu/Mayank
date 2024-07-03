@@ -1,0 +1,48 @@
+[
+    {
+      "title": "Quantum Ensemble Learning",
+      "desc": "The project aims to predict chronic liver disease using an ensemble quantum approach, combining Quantum Machine Learning (QML) and Classical Machine Learning (CML) techniques.",
+      "imageUrl": "/Mayank/images/Projects/quantum.jpeg",
+      "tech1": "Python",
+      "tech2": "Qiskit",
+      "tech3": "Amazon_Bracket",
+      "link":"https://github.com/MayankRajbasu/Quantum_ML_on_Liver_Dataset"
+    },
+    {
+      "title": "",
+      "desc": " ",
+      "imageUrl": "",
+      "tech1": "",
+      "tech2": "",
+      "tech3": "",
+            "link":""
+    },
+    {
+      "title": "",
+     "desc": "",
+      "imageUrl": "",
+      "tech1": "",
+      "tech2": "",
+      "tech3": "",
+      "link":""
+    },
+    {
+      "title": "",
+      "desc": "",
+      "imageUrl": "",
+      "tech1": "",
+      "tech2": "",
+      "tech3": "",
+      "link":""
+    },
+    {
+      "title": "",
+      "desc": "",
+      "imageUrl": "",
+      "tech1": "",
+      "tech2": "",
+      "tech3": "",
+      "link":" "
+    }  
+  ]
+  

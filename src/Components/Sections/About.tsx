@@ -1,6 +1,6 @@
 function About() {
   return (
-    <article className="flex justify-center gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xl:py-0 sd:py-16 xsm:py-10">
+    <article className="flex justify-center gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xl:py-0 sd:py-16 xsm:py-8">
       <div id="about-content" className="flex flex-col w-full mt-7 relative text-left">
         <h1 className="font-regular sm:text-2xl xsm:text-[22px] flex font-semibold text-slate-300 text-start tracking-tight sd:mb-3 xsm:mb-2  before:text-[16px] before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-52 after:xsm:w-[96px] ">About Me</h1>
         <p className="relative font-regular sd:pt-5 xsm:pt-2 tracking-tight msd:text-sd xsm:text-[13px]">Hello! My Name is Mayank and I love to develop Website and work on ML models. Though I have had an encounter with basics of HTML & CSS back in 6th grade, but for me a complete new journey in web development began in 2021 and fast forward to today, I have developed various small and mid-scale scale projects acquiring great skills in HTML & CSS!.</p>
