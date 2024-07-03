@@ -6,43 +6,48 @@
       "tech1": "Python",
       "tech2": "Qiskit",
       "tech3": "Amazon_Bracket",
-      "link":"https://github.com/MayankRajbasu/Quantum_ML_on_Liver_Dataset"
+      "link1":"https://github.com/MayankRajbasu/Quantum_ML_on_Liver_Dataset",
+      "link2":""
     },
     {
-      "title": "",
-      "desc": " ",
-      "imageUrl": "",
-      "tech1": "",
-      "tech2": "",
-      "tech3": "",
-            "link":""
+      "title": "AI Summarizer",
+      "desc": "Small Project to summarize the content from web page url by utilize summarising api from Rapid Api.",
+      "imageUrl": "/Mayank/images/Projects/Summarizer.png",
+      "tech1": "React.js",
+      "tech2": "Tailwind CSS",
+      "tech3": "MongoDB",
+      "link1":"https://github.com/MayankRajbasu/AI-Summarizer",
+      "link2":"https://mayankrajbasu.github.io/AI-Summarizer/"
     },
     {
-      "title": "",
-     "desc": "",
-      "imageUrl": "",
-      "tech1": "",
-      "tech2": "",
-      "tech3": "",
-      "link":""
+      "title": "MediPal",
+     "desc": "This Project aims to help users for early detections of chronical disease based on basic medical information utilzing trained ML models.",
+      "imageUrl": "/Mayank/images/Projects/Medipal.png",
+      "tech1": "Html",
+      "tech2": "MongoDB",
+      "tech3": "Flask",
+      "link1":"https://github.com/MayankRajbasu/Medipal",
+      "link2":""
     },
     {
-      "title": "",
-      "desc": "",
-      "imageUrl": "",
-      "tech1": "",
-      "tech2": "",
-      "tech3": "",
-      "link":""
+      "title": "Quantum Blockchain",
+      "desc": "This Project aims to demonstrate quantum secured blockchain on small scale that utilise quantum key exchange and lattice-based Hash Algorithm for security.",
+      "imageUrl": "/Mayank/images/Projects/blockchain.jpeg",
+      "tech1": "Python",
+      "tech2": "Qiskit",
+      "tech3": "Hashlib",
+      "link1":"https://github.com/MayankRajbasu/Quantum_Blockchain",
+      "link2":""
     },
     {
-      "title": "",
-      "desc": "",
-      "imageUrl": "",
-      "tech1": "",
-      "tech2": "",
-      "tech3": "",
-      "link":" "
+      "title": "My NGO",
+      "desc": "This Project aims to help donner and volunteer to connect to their NGOs in their locality for any form of participation using interacting UI",
+      "imageUrl": "/Mayank/images/Projects/ngo.png",
+      "tech1": "HTML",
+      "tech2": "Flask",
+      "tech3": "MySql",
+      "link1":"https://github.com/MayankRajbasu/My-NGO-Project",
+      "link2":""
     }  
   ]
   

@@ -11,12 +11,13 @@ interface Event {
     tech1:string;
     tech2:string;
     tech3:string;
-    link:string;
+    link1:string;
+    link2:string;
 }
 
 const Carousel: React.FC<{ events: Event[] }> = ({ events }) => {
     const [emblaRef] = useEmblaCarousel({ loop: true },
-        [Autoplay({ delay: 2000 })]
+        // [Autoplay({ delay: 2000 })]
     )
 
     return (
