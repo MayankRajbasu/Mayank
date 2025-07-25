@@ -37,11 +37,9 @@ html, body {
 
 .font-hero{
   font-family: Solway, Solway Placeholder, serif;
-  font-weight: 600;
 }
 .font-regular{
   font-family: Gaegu, sans-serif;
-  font-weight: 700;
 }
 
 .text-yellow{
@@ -80,6 +78,10 @@ main section {
   #about article, #works article, #projects article ,#contact article{
     padding-top: 0px;
   }
+  article{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }  
 }
 
 nav{
@@ -147,6 +149,7 @@ nav div ul a::before{
   margin-right: 10px;
   color: var(--color-highlight);
   text-align: right;
+  font-weight: 600;
   align-items: end;
 }
 

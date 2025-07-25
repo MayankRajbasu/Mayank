@@ -1,22 +1,46 @@
 function Work() {
   return (
-    <article className="flex justify-center gap-4 relative flex-wrap flex-col items-center w-full min-h-screen xl:px-36 xl:py-0 sd:py-16 xsm:py-10">
-      <div id="work-content" className="flex flex-col w-full sm:mt-7 xsm:mt-0 relative">
-        <h1 className="font-regular sm:text-2xl xsm:text-[22px] flex font-semibold text-slate-300 text-start mb-3 before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-40 after:xsm:w-[60px]">My Experience</h1>
-        <div className="relative font-regular sd:pt-5 xsm:pt-1 text-left sd:text-sd xsm:text-[12px]">
-          <h2 className="font-medium msd:text-xl sm:text-[18px] xsm:text-[15px] tracking-tighter" >Frontend Intern <span className="text-teal-400">@ ScienceOverse</span></h2>
-          <p className="msd:text-sd xsm:text-[13px] font-light">Apr 2024 - May 2024</p>
-          <ul className="pt-2 pl-3 text-left msd:text-sd xsm:text-[13px] tracking-tight">
-            <li>Successfully developed multiple interactive and responsive webpages using React, Next.js, and Tailwind CSS,
-              contributing to the overall user experience and functionality of the website.</li>
-            <li>Identified, debugged, and resolved critical issues across the website, improving stability and performance,
-              which led to a more efficient and user-friendly application.</li>
+    <article className="flex justify-center font-semibold relative flex-wrap flex-col items-center w-full min-h-screen 
+    xl:px-96 lg:px-36 sm:px-20 xsm:px-6 xl:py-0 sd:py-16 xsm:py-8">
+      <div id="work-content" className="flex flex-col w-full relative text-left">
+        <h1 className="flex items-center font-semibold font-hero text-neutral-800 text-[2rem] text-start mb-3 before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-40 after:xsm:w-[60px]">My Experience</h1>
+        <div className="relative sd:pt-5 xsm:pt-1 text-left sd:text-sd xsm:text-[12px]">
+          <h2 className="msd:text-[1.4rem] sm:text-[18px] xsm:text-[15px] tracking-tighter" >SOC Analyst Intern <span className="text-[#FFBE42] font-regular font-normal">@Radware</span></h2>
+          <p className="msd:text-sd text-[14px] font-medium">Sep 2024 - present</p>
+          <ul className="pt-2 pl-3 text-left msd:text-[1rem] xsm:text-[13px] tracking-tight">
+            <li>Monitored and analyzed global customer
+              traffic across Radware's security platform for
+              threats like Web DDoS, API abuse, SQL
+              injection, and Carpet Bombing attacks.</li>
+            <li>Responded to real-time incidents with
+              mitigation strategies, tuning security policies,
+              and analyzing anomaly behavior.</li>
+            <li>Gained hands-on experience with CDN, WAF,
+              and behavioral-based threat detection
+              models.</li>
+            <li>Assisted in creating detailed incident reports
+              and proactive refinement for client-specific
+              threat profiles.</li>
           </ul>
-          <h2 className="font-medium msd:text-xl sm:text-[18px] xsm:text-[15px] mt-4 tracking-tighter" >Data Science Intern <span className="text-teal-400">@ Let'sGrowMore</span></h2>
-          <p className="msd:text-sd xsm:text-[13px] font-light">Apr 2024 - May 2024</p>
+          <h2 className="msd:text-[1.4rem] sm:text-[18px] xsm:text-[15px] tracking-tighter pt-3" >Frontend Intern <span className="text-[#FFBE42] font-regular font-normal">@ScienceOverse</span></h2>
+          <p className="msd:text-sd text-[14px] font-medium">Apr 2024 - May 2024</p>
           <ul className="pt-2 pl-3 text-left msd:text-sd xsm:text-[13px] tracking-tight">
-            <li>Improved familiarity with ML and Decision Tree Models with practical use case.</li>
-            <li>Engineered a simple solution to convert photos to pencil drawings using OpenCV and Python.</li>
+            <li>Developed interactive and responsive
+              webpages using React, Next.js, and Tailwind
+              CSS, enhancing user experience and website
+              functionality.</li>
+            <li>Resolved high-priority website bugs,
+              improving overall system stability and
+              performance leading to a seamless and user-
+              friendly experience.</li>
+          </ul>
+          <h2 className="msd:text-[1.4rem] sm:text-[18px] xsm:text-[15px] tracking-tighter pt-3" >Data Science Intern <span className="text-[#FFBE42]">@Let'sGrowMore</span></h2>
+          <p className="msd:text-sd text-[14px] font-light">Apr 2024 - May 2024</p>
+          <ul className="pt-2 pl-3 text-left msd:text-sd xsm:text-[13px] tracking-tight">
+            <li>Implemented and evaluated decision treebased ML models for 
+              supervised learning tasks.</li>
+            <li>Designed and Built a photo-to-pencil sketch
+              converter using OpenCV and Python.</li>
           </ul>
         </div>
       </div>
