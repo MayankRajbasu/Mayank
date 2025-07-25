@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <article className="flex flex-col justify-center items-center relative w-full min-h-screen ">
+    <article className="flex flex-col justify-center items-center relative w-full min-h-screen xl:px-96 lg:px-36 sm:px-20 xsm:px-6">
       <div id="content" className="h-full text-center flex flex-col gap-3 items-center">
         <p className="font-hero font-semibold text-neutral-800 text-[3rem] py-2">Hi, I'm Mayank</p>
         <div id="img-content" className=" sd:w-[300px] xsm:w-[240px] bg-[#FAEFCC] rounded hover:-translate-x-1 hover:-translate-y-1 relative ">
