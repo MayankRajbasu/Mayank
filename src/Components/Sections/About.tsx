@@ -3,12 +3,13 @@ function About() {
     <article className="flex justify-center font-semibold relative flex-wrap flex-col items-center w-full min-h-screen 
     xl:px-96 lg:px-36 sm:px-20 xl:py-0 sd:py-16 xsm:py-8">
       <div id="about-content" className="flex flex-col w-full relative text-left">
-        <h1 className="flex items-center font-hero text-neutral-800 text-[2rem] text-start tracking-tight sd:mb-3 
+        {/* msd:text-[1.4rem] sm:text-[18px] xsm:text-[15px] */}
+        <h1 className="flex items-center font-hero text-neutral-800 msd:text-[2.2rem] xsm:text-[1.6rem] text-start tracking-tight sd:mb-3 
         xsm:mb-2 before:text-[16px] before:text-lg before:font-medium after:bg-slate-600 after:msd:w-60 after:sm:w-52 
         after:xsm:w-[96px]">About Me</h1>
-        <p className="relative text-[1.3rem] pt-4 tracking-tight">Hi, I'm Mayank Raj — Security Defender by Day,
+        <p className="relative msd:text-[1.3rem] xsm:text-[15px] pt-4 tracking-tight">Hi, I'm Mayank Raj — Security Defender by Day,
           AI Explorer by Passion. </p>
-        <p className="relative text-[1.3rem] tracking-tight ">
+        <p className="relative msd:text-[1.3rem] xsm:text-[15px] tracking-tight">
           I didn't begin in cybersecurity — I evolved into it.
           From designing intuitive web interfaces to building intelligent ML models, my path has always been led by curiosity and impact.
           An unexpected turn into cybersecurity transformed my journey.
@@ -21,7 +22,7 @@ function About() {
           cognition — and I'm here to build it.</p>
       </div>
       <ul id="skills-content" className="relative grid tracking-tight xsm:grid-cols-3 lg:grid-cols-4 w-full text-left 
-      py-4 sm:px-2 text-[1.3rem]">
+      py-4 sm:px-2 msd:text-[1.3rem] xsm:text-[15px]">
         <li className="">Threat Detection & Analysis</li>
         <li className="">DDoS Mitigation</li>
         <li className="">SOC Operations</li>
