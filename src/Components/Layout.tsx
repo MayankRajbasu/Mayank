@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ id, children }) => {
   return (
-    <section id={id} className='xl:mx-32 sd:mx-24 xsm:mx-6 relative'>
+    <section id={id} className='w-full relative'>
       {children}
     </section>
   );
